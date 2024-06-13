@@ -80,6 +80,7 @@ a, .text-content p {
     width: 525px;
     height: 250px;
     flex-shrink: 1;
+    object-fit: cover;
 }
 
 button {
@@ -132,6 +133,7 @@ button {
     height: 200px;
     border: 4px solid #3882f6;
     border-radius: 20px;
+    object-fit: cover;
 }
 .item span {
     width: 85%;
