@@ -136,3 +136,31 @@ button {
 .item span {
     width: 85%;
 }
+
+/* quote div */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+}
+.blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;
+}
+.quote span {
+    text-align: right;
+    padding-right: 40px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.blockquote, .quote span {
+    width: 780px;
+}
+
+/* sign up div */
+
