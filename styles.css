@@ -18,29 +18,76 @@ body {
     display: flex;
 }
 
-.header {
-    display: flex;
-    justify-content: space-around;
-    flex: 1;
-    align-items: center;
-    padding: 16px;
-
+.hero {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.header .logo {
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 100px;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+.logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+    width: 400px;
 }
+
 
 .navbar {
     display: flex;
     list-style: none;
     gap: 22px;
+    width: 500px;
+    justify-content: flex-end;
 }
 
 a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    gap: 52px;
+}
+
+.text-content {
+    width: 450px;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+a, .text-content p {
     font-size: 18px;
     color: #e5e7eb;
-    text-decoration: none;
+}
+
+#hero-img {
+    width: 500px;
+    height: 250px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
 }
