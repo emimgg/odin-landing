@@ -16,6 +16,7 @@ body {
 .hero, .footer {
     background-color: #1f2937;
     display: flex;
+    width: 100vw;
 }
 
 .hero {
@@ -56,8 +57,9 @@ a {
 .content {
     display: flex;
     justify-content: center;
-    padding: 150px;
     gap: 52px;
+    flex-wrap: wrap;
+    padding: 164px;
 }
 
 .text-content {
@@ -90,4 +92,10 @@ button {
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+}
+
+.header, .content {
+    width: 75%;
+    margin: 0 auto;
+    outline: 2px solid red;
 }
