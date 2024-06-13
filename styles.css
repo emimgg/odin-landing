@@ -22,23 +22,22 @@ body {
 .hero {
     flex-direction: column;
     justify-content: space-between;
-    gap: 20px;
+    align-items: center;
 }
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 16px;
-    gap: 100px;
     align-items: flex-end;
     margin: 0 auto;
+    flex: 1;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
-    width: 400px;
 }
 
 
@@ -46,7 +45,6 @@ body {
     display: flex;
     list-style: none;
     gap: 22px;
-    width: 500px;
     justify-content: flex-end;
 }
 
@@ -56,10 +54,11 @@ a {
 
 .content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 52px;
     flex-wrap: wrap;
-    padding: 164px;
+    padding: 136px 16px;
+    flex: 1;
 }
 
 .text-content {
@@ -78,8 +77,9 @@ a, .text-content p {
 }
 
 #hero-img {
-    width: 500px;
+    width: 525px;
     height: 250px;
+    flex-shrink: 1;
 }
 
 button {
@@ -95,7 +95,7 @@ button {
 }
 
 .header, .content {
-    width: 75%;
+    width: 56%;
     margin: 0 auto;
-    outline: 2px solid red;
+    flex-shrink: 1;
 }
