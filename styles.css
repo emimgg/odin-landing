@@ -78,8 +78,8 @@ a, .text-content p {
 }
 
 #hero-img {
-    width: 525px;
-    height: 250px;
+    width: 475px;
+    height: 225px;
     flex-shrink: 1;
     object-fit: cover;
 }
@@ -97,7 +97,7 @@ button {
 }
 
 .header, .content {
-    width: 56%;
+    width: 65%;
     margin: 0 auto;
     flex-shrink: 1;
 }
