@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -166,3 +167,37 @@ button {
 
 /* sign up div */
 
+.sign-up {
+    background-color: #3882f6;
+    display: flex;
+    width: 1000px;
+    margin: 150px auto;
+    padding: 64px;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 164px;
+    color: white;
+}
+
+/* debug */
+.sign-up > div, .sign-up button {
+
+}
+/* debug */
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-text h3 {
+    font-size: 22px;
+}
+
+.sign-up-text span {
+    color: #e5e7eb;
+}
+
+.sign-up button {
+    border: 2px solid white;
+}
