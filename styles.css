@@ -78,9 +78,9 @@ a, .text-content p {
 }
 
 #hero-img {
-    width: 475px;
+    min-width: 275px;
+    flex-grow: 1;
     height: 225px;
-    flex-shrink: 1;
     object-fit: cover;
 }
 
@@ -116,6 +116,7 @@ button {
     justify-content: center;
     gap: 64px;
     margin-top: 72px;
+    flex-wrap: wrap;
 }
 
 .item {
@@ -128,6 +129,7 @@ button {
     color: #96989c;
     align-items: center;
     gap: 10px;
+    flex-shrink: 0;
 }
 .item img {
     width: 100%;
