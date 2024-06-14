@@ -63,7 +63,8 @@ a {
 }
 
 .text-content {
-    width: 450px;
+    max-width: 450px;
+    flex: 1;
 }
 
 .text-content h1 {
@@ -78,10 +79,11 @@ a, .text-content p {
 }
 
 #hero-img {
+    max-width: 450px;
     min-width: 275px;
-    flex-grow: 1;
     height: 225px;
     object-fit: cover;
+    flex: 1;
 }
 
 button {
